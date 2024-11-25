@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #b3b3af;
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,10 +12,9 @@ body {
 header {
     background-color: #2c3e50;
     color: white;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 h1 {
     margin: 0;
