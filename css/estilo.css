@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    line-height: 1.5;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    color:rgb(29, 193, 182);
+}
+h2,  h3 {
+    text-align: center;
+    margin-top: 50px;
+    color: #ff0000;
+    border-bottom: 3px solid #ff0000;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.grupo {
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    color: #f8f8f2;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.menu {
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    background-color: #ff5733;
+    padding: 10px;
+    margin: left 3px;
+    width: 100;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+ul {
+    list-style-image: url(../recursos/tick.png);
+}
+
+a:link {
+    color:rgb(29, 193, 182);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(84, 63, 206);
+}
+
+.personalizado li {
+    list-style: none;
+}
+.personalizado li::before{
+    content: "►";
+    margin-left: -1em;
+}
+
+.fotoConsejos{
+    max-width: 100%;
+    height: auto;
+    border: 7px solid #ff5733;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px;
+}
+
+table {
+    width: 75%;
+    max-width: 700px;
+    min-width: 400px;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+td, th {
+    border: 2px solid #ff0000;
+    width: 20%;
+    font-size: 15px;
+    text-align: center;
+}
+thead {
+    text-align: center;
+    background-color: #2980b9;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(29, 193, 182);
+    color: black;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(84, 63, 206);
+    color: black;
+}
+
+.plato {
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+}
